@@ -1,0 +1,40 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;  
+}
+
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.icon{
+    width: 100px;
+    color: black;
+}
+.icons a {
+    cursor: pointer;
+
+}
+.youtubeicon :hover{
+    color: red;
+}
+.xicon :hover{
+    color: black;
+}
+.linkedinicon :hover{
+    color: darkblue;
+}
+.instagramicon :hover{
+    color: pink;
+}
+
+.footerText{
+    padding-top: 200px;
+    font-size: 20px;
+}

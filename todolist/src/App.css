@@ -1,0 +1,21 @@
+.tasksheader{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: black;
+    font-size: 4rem;
+    font-weight: bolder;
+    font-family: 'Protest Revolution', sans-serif;
+}
+
+.tasksDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    word-wrap: normal;
+    word-wrap: break-word;
+    
+}

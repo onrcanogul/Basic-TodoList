@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    background-color: aquamarine;
+    background-color: gold;
+    height: 90px;
+    display: flex;
+    justify-content: baseline;   
+    align-items: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+.headerText{
+    text-align: center;
+    color: #ffff;
+    font-family: 'Protest Revolution', sans-serif;
+    font-weight: bold;
+    padding-left: 50px;
+    font-size: 3rem;
+}

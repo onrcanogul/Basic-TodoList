@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+input {
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    width: 100%;  
+    font-size: 20px;  
+    font-family: 'Protest Revolution', sans-serif;
+    background-color: gold;
+    border: 2px beige  solid;
+    color: #ffff;
+    box-shadow: 0 2px 5px #ccc;
+
+    
+}
+.input{
+    width: 30%;
+}
+textarea{
+    margin-top: 0.5rem;
+    border: 2px beige solid;
+    box-shadow: 1px;
+    border-radius: 5px;
+    resize: none;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Protest Revolution', sans-serif;
+    background-color: gold;
+    color: #ffff;
+    box-shadow: 0 2px 5px #ccc;
+}
+.addTask{
+    background-color: gold;
+    border: 1px gold solid;
+    border-radius: 20%;
+    height: 75px;
+    width: 100px;
+    color: #ffff;  
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 5px #ccc;
+}
+.addTask:hover{
+    background-color: darkblue;
+    border: 1px darkblue solid;
+}
+  
+input::placeholder {
+    font-weight: bolder;    
+    opacity: 1;
+    color: #ffff;
+    text-align: center;
+}
+.createtask{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:0px;
+}
+textarea::placeholder{
+    font-weight: bolder;    
+    opacity: 1;
+    color: #ffff;
+    text-align: center;
+}
+
+.addicon{
+    height: 60px;
+    width: 60px;
+    padding-top: 7px;
+
+}
+
+.addDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
